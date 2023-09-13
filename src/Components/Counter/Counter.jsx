@@ -15,32 +15,32 @@ const Counter = () => {
   return (
     <div className="flex gap-10 flex-col ">
       <button
-        className="bg-orange-500 p-3 rounded text-2xl "
+        className="bg-orange-500 p-3 rounded text-white text-2xl "
         onClick={() => dispatch(increment())}
       >
         Increment
       </button>
       <h1 className="bg-gray-400 text-2xl text-white p-10 ">Count: {count}</h1>
       <button
-        className="bg-orange-500 p-3 rounded text-2xl "
+        className="bg-orange-500 p-3 rounded text-white text-2xl "
         onClick={() => dispatch(decrement())}
       >
         Decrement
       </button>
       <button
-        className="bg-orange-500 p-3 rounded text-2xl "
+        className="bg-orange-500 p-3 rounded text-white text-2xl "
         onClick={() => dispatch(incrementByAmount(5))}
       >
         Increment 5
       </button>
       <button
-        className="bg-orange-500 p-3 rounded text-2xl "
+        className="bg-orange-500 p-3 rounded text-white text-2xl "
         onClick={() => dispatch(decrementByAmount(5))}
       >
         Decrement by 5
       </button>
       <button
-        className="bg-orange-500 p-3 rounded text-2xl "
+        className="bg-red-500 p-3 rounded text-white text-2xl "
         onClick={() => dispatch(reset())}
       >
         reset
